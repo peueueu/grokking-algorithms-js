@@ -5,16 +5,9 @@ JavaScript implementations of algorithms from the book **[Grokking Algorithms](h
 ## 📖 Table of Contents
 - [Grokking Algorithms - JavaScript Implementations](#grokking-algorithms---javascript-implementations)
   - [📖 Table of Contents](#-table-of-contents)
-  - [🌟 About](#-about)
   - [📚 Algorithms Implemented](#-algorithms-implemented)
     - [Completed](#completed)
   - [🚀 Getting Started](#-getting-started)
-
-## 🌟 About
-This repository contains JavaScript implementations of algorithms explained in the *Grokking Algorithms* book. Each implementation:
-- Follows the book's explanations
-- Includes practical examples
-- Has clear, commented code -->
 
 ## 📚 Algorithms Implemented
 ### Completed
