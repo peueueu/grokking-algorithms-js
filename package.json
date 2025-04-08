@@ -1,0 +1,23 @@
+{
+  "name": "grokking-algorithms",
+  "version": "1.0.0",
+  "description": "JavaScript samples of **Grokking Algorithms** book by Aditya Y. Bhargava",
+  "main": "index.js",
+  "scripts": {
+    "start": "./entrypoint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peueueu/grokking-algorithms-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peueueu/grokking-algorithms-js/issues"
+  },
+  "homepage": "https://github.com/peueueu/grokking-algorithms-js#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
