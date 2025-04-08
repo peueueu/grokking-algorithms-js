@@ -1,12 +1,12 @@
-const { seedBinarySearchDatasetFn } = require("../utils/seed");
+const { seedBinarySearchDatasetFn } = require("../../utils/seed");
 
 /**
- * Needs Log2(x) to find an item.
- * @param arr: The given array must be a ordered list.;
- * @returns index: Index of the element on the list;
+ * Needs approximately Log2(x) to find an item (Worst case scenario).
+ * @param _arrLength: The given array must be a ordered.;
+ * @returns index: Index of the element on the array;
  */
-function BinarySearch(target, listSize = 100) {
-  const arr = seedBinarySearchDatasetFn(listSize);
+function BinarySearch(target, _arrLength = 100) {
+  const arr = seedBinarySearchDatasetFn(_arrLength);
   let low = 0;
   let high = arr.length - 1;
   let numOfSteps = 1;
