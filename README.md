@@ -18,7 +18,7 @@ This repository contains JavaScript implementations of algorithms explained in t
 
 ## 📚 Algorithms Implemented
 ### Completed
-- [ ] Binary Search
+- [x] Binary Search
 - [ ] Selection Sort
 - [ ] Recursion (Factorial, Fibonacci)
 - [ ] Quicksort

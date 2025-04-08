@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/peueueu/grokking-algorithms-js#readme",
   "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
     "nodemon": "^3.1.9"
   }
 }
