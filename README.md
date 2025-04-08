@@ -24,13 +24,8 @@ This repository contains JavaScript implementations of algorithms explained in t
 - [ ] Quicksort
 - [ ] Breadth-First Search
 - [ ] Dijkstra's Algorithm
-- [ ] Dijkstra's Algorithm
-- [ ] Dijkstra's Algorithm
-- [ ] Dijkstra's Algorithm
-- [ ] Dijkstra's Algorithm
-- [ ] Dijkstra's Algorithm
 
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/grokking-algorithms-js.git
+   git clone https://github.com/peueueu/grokking-algorithms-js.git
