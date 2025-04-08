@@ -1,27 +1,29 @@
 import { faker } from "@faker-js/faker";
 
-function retryGenerateRandomNumber(maxValue) {
-  return faker.number.int(maxValue);
+function retryGenerateRandomNumber(value) {
+  return faker.number.int(value);
 }
 
-export function seedDatasetFn(datasetSize = 50, maxValue = 100) {
+const numberGen = (factor) => Math.round(Math.random() * 10) * factor;
+
+export function seedDatasetFn(datasetSize = 50, factor = 10) {
   const _arrLength = new Array(datasetSize);
   const seedData = new Set();
-
   console.time("Seed");
-  while (seedData.size < datasetSize) {
+  while (datasetSize > seedData.size) {
     try {
-      const randomNumber = faker.number.int(maxValue);
+      const randomNumber = faker.number.int(numberGen(factor));
       if (seedData.has(randomNumber)) {
         throw new Error("Already included on the set");
       }
       seedData.add(randomNumber);
     } catch (_) {
-      const newRandomNumber = retryGenerateRandomNumber(maxValue);
+      const newRandomNumber = retryGenerateRandomNumber(numberGen(factor));
       seedData.add(newRandomNumber);
     }
   }
   console.timeEnd("Seed");
+
   return Array.from(seedData);
 }
 
