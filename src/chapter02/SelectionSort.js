@@ -18,11 +18,6 @@ function findSmallest(arr) {
   return smallestIdx;
 }
 
-/**
- * Sort array by increment
- * @param {Array} array Source array
- * @returns {Array} New sorted array
- */
 function SelectionSort(arr) {
   const arrCopy = [...arr];
   const sortedArr = [];
